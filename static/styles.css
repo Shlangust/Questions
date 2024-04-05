@@ -1,0 +1,61 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+
+    margin-right: 200px;
+    display:flex;
+}
+.per{
+    display:flex;
+     gap: 300px;
+     margin-left: 100px;
+}
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+}
+
+
+
+
+
+.buttons {
+    height: 200px;
+    display: flex;
+    margin-left: 200px;
+
+}
+
+button {
+    align-items: center;
+    margin-right: 10px;
+
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: #cad9ed;
+    border-color: #7986b5;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<form action="/que" method="post">
+
+    <div class="buttons">
+        <div class="bt">
+            <button type="submit" name="submit_button" value="Студенты СПО">Студенты СПО</button>
+        </div>
+        <div class="bt">
+            <button type="submit" name="submit_button" value="Педагогические работники СПО">Педагогические работники СПО</button>
+        </div>
+        <div class="bt">
+            <button type="submit" name="submit_button" value="Социальные партнеры СПО">Социальные партнеры СПО</button>
+
+        </div>
+        <div class="bt">
+            <button type="submit" name="submit_button" value="школьники">школьники</button>
+
+        </div>
+    </div>
+
+</form>
+<div class="header">
+        <h3>Осталось вопросов:</h3>
+    <div class="per">
+        <a>{{stud}}</a>
+        <a>{{ped}}</a>
+        <a>{{soc}}</a>
+        <a>{{sh}}</a>
+    </div>
+    </div>
+</body>
+</html>
